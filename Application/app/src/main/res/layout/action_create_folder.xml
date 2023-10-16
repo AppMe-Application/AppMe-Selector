@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<TextView
+		android:id="@+id/title_new_folder"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Create New Folder"
+		android:background="#FF000000"
+		android:textColor="#FFFFFFFF"
+		android:gravity="center"/>
+
+	<RelativeLayout
+		android:id="@+id/new_folder_view"
+		android:layout_width="match_parent"
+		android:layout_height="80dp"
+		android:layout_below="@+id/title_new_folder"
+		android:background="@color/colorPrimary">
+
+		<EditText
+			android:id="@+id/et_folder_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true"
+			android:layout_centerVertical="true"
+			android:layout_margin="16dp"
+			android:layout_toLeftOf="@+id/create_folder_button"
+			android:layout_toStartOf="@+id/create_folder_button"
+			android:backgroundTint="@color/pathLayoutBgColor"
+			android:maxLength="50"
+			android:maxLines="1"
+			android:singleLine="true"
+			android:textColor="@android:color/white"
+			android:textColorHint="@color/chevronBgColor"
+			android:textSize="16sp"/>
+
+		<Button
+			android:id="@+id/create_folder_button"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_alignParentEnd="true"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:layout_marginBottom="16dp"
+			android:layout_marginEnd="8dp"
+			android:layout_marginRight="8dp"
+			android:layout_marginTop="16dp"
+			android:background="@null"
+			android:textColor="@android:color/white"
+			android:text="Create"/>
+
+	</RelativeLayout>
+
+</RelativeLayout>
+

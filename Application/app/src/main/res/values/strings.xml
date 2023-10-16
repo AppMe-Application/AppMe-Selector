@@ -1,0 +1,21 @@
+<resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AppMe-Selector</string>
+    <string name="app_copy_right" translatable="false">Copyrights © %1$d</string>
+    
+    <string name="selector_show_dialog">Show Dialog</string>
+    <string name="selector_cancel_button_label">Cancel</string>
+    <string name="selector_choose_button_label">Select</string>
+    <string name="selector_default_dir" translatable="false">/sdcard</string>
+    <string name="selector_last_edit">Last edited: </string>
+    <string name="selector_error_dir_access">Directory cannot be accessed</string>
+    <string name="selector_label_parent_dir" translatable="false">...</string>
+    <string name="selector_label_parent_directory">Parent Directory</string>
+	<string name="selector_root_path">Root</string>
+	
+	<string name="list_empty_message">No items yet</string>
+    <string name="list_loading_message">Please wait</string>
+    <string name="list_error_message">Oops! Something wrong happened</string>
+    <string name="list_empty_button">Try again</string>
+    <string name="list_loading_button">Cancel</string>
+    <string name="list_error_button">Try again</string>
+</resources>
